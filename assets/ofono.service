@@ -1,0 +1,11 @@
+[Unit]
+Description=Telephony service
+
+[Service]
+Type=dbus
+BusName=org.ofono
+ExecStart=/usr/sbin/ofonod -n
+StandardError=null
+
+[Install]
+WantedBy=multi-user.target

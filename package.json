@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/woody34/ubuntu-airpod-mic-fix/issues"
   },
-  "homepage": "https://github.com/woody34/ubuntu-airpod-mic-fix#readme"
+  "homepage": "https://github.com/woody34/ubuntu-airpod-mic-fix#readme",
+  "dependencies": {
+    "replace-in-file": "^6.1.0"
+  }
 }
